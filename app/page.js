@@ -10,8 +10,16 @@ import {
   World,
 } from "../sections";
 
+// import localFont from "next/font/local";
+
+// const iranSans = localFont({
+//   src: "../public/fonts/IRANSans_Medium/IRANSans_Medium.ttf",
+//   variable: "--font-iranSans",
+//   display: "swap",
+// });
+
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className={`bg-primary-black overflow-hidden `}>
     <Navbar />
     <Hero />
 

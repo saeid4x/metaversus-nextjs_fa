@@ -2,6 +2,14 @@ import Head from "next/head";
 
 import "../styles/globals.css";
 
+// import localFont from "next/font/local";
+
+// const iranSans = localFont({
+//   src: "../public/fonts/IRANSans_Medium/IRANSans_Medium.ttf",
+//   variable: "--font-iranSans",
+//   display: "swap",
+// });
+
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
@@ -14,7 +22,9 @@ const MyApp = ({ Component, pageProps }) => (
         href="https://stijndv.com/fonts/Eudoxus-Sans.css"
       />
     </Head>
-    <Component {...pageProps} />
+    <main>
+      <Component {...pageProps} />
+    </main>
   </>
 );
 

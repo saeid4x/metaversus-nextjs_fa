@@ -20,7 +20,7 @@ const GetStarted = () => (
     >
       <motion.div
         variants={planetVariants('left')}
-        className={`flex-1 ${styles.flexCenter}`}
+        className={`flex-1 ${styles.flexCenter} text-center`}
       >
         <img 
            src="/get-started.png" 
@@ -33,15 +33,16 @@ const GetStarted = () => (
         variants={fadeIn('left' , 'tween' ,0.2, 1)}
         className="flex-[0.75] flex flex-col justify-center"
       >
-        <TypingText title="| How Metavwesus Works" />
-        <TitleText title={<> Get Started with just a few</>} />
+        <TypingText title="| متاورس چطور کار می کند" textStyles="text-[30px] pb-10" />
+        <TitleText title={<> فقط با چند مورد شروع کنید</>} />
 
-        <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
+        <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px] text-red-500'>
            {startingFeatures.map((feature, index) => (
             <StartSteps
               key={feature}
               number={index + 1}
               text={feature}
+               
             />
            ))}
         </div>
@@ -49,7 +50,7 @@ const GetStarted = () => (
       </motion.div>
 
     </motion.div>
-    Get Started Section
+     
   </section>
 );
 

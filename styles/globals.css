@@ -2,12 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: iransans_medium;
+  src: url(../public/fonts/IRANSans_Medium/IRANSans_Medium.ttf);
+}
+
+ 
+@font-face {
+  font-family: IRANSans_ultra;
+  src: url(../public/fonts/other/IRANSans_UltraLight.ttf);
+}
+.about-txt{
+  font-family: IRANSans_ultra;
+  color:white;
+ 
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
+  direction: rtl;
+  font-family: iransans_medium;
 }
 
 .gradient-01 {

@@ -20,11 +20,11 @@ const Explore = () => {
         initial="hidden"
         whileInView="show"
         viewport={{once:false , amount:0.25}}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col text-center`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| جهان " textStyles="text-center text-[30px] pb-10" />
         <TitleText 
-           title={<>Choose the world you want <br className='md:block hidden' /> to explore</>}
+           title={<> به دنیایی جدید با قابلیت های بی نظیر <br className='md:block hidden' /> سفر کنید</>}
            textStyles="text-center"
            />
   

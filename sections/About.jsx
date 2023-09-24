@@ -18,40 +18,41 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText 
-           title="| About Metaversus"
+           title="| درباره Metaversus "
            textStyles="text-center"
            />
 
            <motion.p
              variants={fadeIn('up' , 'tween' , 0.2 , 1)}
-             className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+             className="about-txt mt-[8px] font-normal sm:text-[30px] text-[20px] text-center text-secondary-white leading-[50px]"
            >
                
-               <span className='font-extrabold text-white '>
-                   Metaverse  &nbsp;               
-                </span>                
-                is a new thing in the future, where you can enjoy the virtual world by feeling 
-                like it's really real, you can feel what you feel in this metaverse world, because this is
-                really the
+               <span className='font-extrabold text-white  about-txt'>
+                   متاورس  &nbsp;               
+                </span>  
+
+                    دنیای جدید و شگفت‌انگیزی و درواقع یک مکان مجازی است که به کاربران اجازه می‌دهد در یک محیط دیجیتالی با افراد واقعی تعامل داشته باشند. دنیای متاورس را می‌توان به‌عنوان یک اینترنت تجسم‌یافته در نظر بگیریم که به‌جای آنکه تنها به آن نگاه کنیم، درواقع در آن حضور داشته باشیم
+تصور کنید بتوانید بدون آنکه جای خود را ترک کنید، به هر جایی که دوست داشته باشید بروید (آسمان، زمین و دریا) و همان‌طور که می‌خواهید ظاهر شوید، کار کنید و درآمد داشته باشید
+
+              
                   
-               <span className='font-extrabold text-white '>
-               &nbsp;  madness of the metaverse &nbsp;              
+               <span className='font-extrabold text-white about-txt'>
+               &nbsp;  جنون متاورس &nbsp;              
                 </span>  
 
-                 of today, using only
+               اکنون با استفاده از
 
-                 <span className='font-extrabold text-white '>
-                 &nbsp;  VR  &nbsp;           
+                 <span className='font-extrabold text-white about-txt'>
+                 &nbsp;  واقعیت مجازی  &nbsp;           
                 </span>  
 
-                   devices you can easily explore the metaverse world you want,  turn your 
-                   dreams into reality. Let's 
+                   رویاها تبدیل به واقعیت می شوند  
 
-                   <span className='font-extrabold text-white '>
-                   &nbsp;   explore   &nbsp;            
+                   <span className='font-extrabold text-white about-txt'>
+                   &nbsp;   برای اطلاع از قابلیت های متاورس   &nbsp;            
                   </span> 
 
-                   the madness of the metaverse by scrolling down
+                 این صفحه را تا انتها مشاهده کنید
 
            </motion.p>
 

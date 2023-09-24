@@ -24,8 +24,8 @@ const WhatsNew = () => (
         variants={fadeIn('right' , 'tween' ,0.2, 1)}
         className="flex-[0.75] flex flex-col justify-center"
       >
-        <TypingText title="| What's New?" />
-        <TitleText title={<> What's new about Metaversus? </>} />
+        <TypingText title="| چه خبر؟"  textStyles="text-[30px] "/>
+        <TitleText title={<> خبرهای جدید درباره متاورس </>}/>
 
         <div className='mt-[48px] flex flex-wrap  justify-between gap-[24px]'>
            {newFeatures.map((feature) => (
@@ -51,7 +51,7 @@ const WhatsNew = () => (
       </motion.div>
 
     </motion.div>
-    Get Started Section
+    
   </section>
 );
 

@@ -16,17 +16,16 @@ const World = () => (
         initial="hidden"
         whileInView="show"
         viewport={{once:'false' , amount:0.25}}
-        className={`${styles.innerWidth} mx-auto flex   flex-col `}
+        className={`${styles.innerWidth} mx-auto flex flex-col text-center `}
       >
         <TypingText 
-            title="| People on the World" 
-            textStyles="text-center"
+            title="| مردم جهان" 
+            textStyles="text-center text-[30px] pb-10"
             />
             <TitleText 
                title={
                <>
-                 Track friends around you and invite them to play
-                  together in the same world               
+                 دوستان اطراف خود را دنبال کنید و آنها را به بازی دعوت کنید              
                </>
                }
                textStyles="text-center"
